@@ -36,18 +36,28 @@ return [
     */
     'tags' => [
         'ko' => [
-            'laravel' => '라라벨',
-            'lumen' => '루멘',
-            'general' => '자유의견',
-            'server' => '서버',
-            'tip' => '팁',
+            'performance' => '공연',
+            'beauty' => '미용',
+            'restaurant' => '맛집',
+            'shopping' => '쇼핑',
+            'attraction' => '볼거리',
+            'night' => '밤문화',
         ],
         'en' => [
-            'laravel' => 'Laravel',
-            'lumen' => 'Lumen',
-            'general' => 'General',
-            'server' => 'Server',
-            'tip' => 'Tip',
+            'performance' => 'public performance',
+            'beauty' => 'beauty',
+            'restaurant' => 'restaurant',
+            'shopping' => 'shopping',
+            'attraction' => 'attraction',
+            'night' => 'night',
+        ],
+        'cn' => [
+            'performance' => '演出',
+            'beauty' => '美容',
+            'restaurant' => '美食店',
+            'shopping' => '购物',
+            'attraction' => '看点',
+            'night' => '栗子文化',
         ],
     ],
 
@@ -81,5 +91,6 @@ return [
     'locales' => [
         'ko' => '한국어',
         'en' => 'English',
+        'cn' => '汉语',
     ],
 ];
