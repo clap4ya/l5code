@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
                 'name' => $names['ko'],
                 'ko' => $names['ko'],
                 'en' => $names['en'],
-                'cn' => $names['cn'],
+                'zh' => $names['zh'],
                 'slug' => str_slug($slug)
             ]);
         }

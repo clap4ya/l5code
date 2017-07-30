@@ -51,7 +51,7 @@ return [
             'attraction' => 'attraction',
             'night' => 'night',
         ],
-        'cn' => [
+        'zh' => [
             'performance' => '演出',
             'beauty' => '美容',
             'restaurant' => '美食店',
