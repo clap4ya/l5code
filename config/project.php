@@ -91,6 +91,6 @@ return [
     'locales' => [
         'ko' => '한국어',
         'en' => 'English',
-        'cn' => '汉语',
+        'zh' => '汉语',
     ],
 ];

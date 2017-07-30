@@ -26,8 +26,8 @@ class AppServiceProvider extends ServiceProvider
         }
 
         // 카본 인스턴스의 언어를 설정한다.
-        //\Carbon\Carbon::setLocale(app()->getLocale());
-        \Carbon\Carbon::setLocale('zh');
+        \Carbon\Carbon::setLocale(app()->getLocale());
+        //\Carbon\Carbon::setLocale('zh');
 
         view()->composer('*', function ($view) {
             $allTags = \Cache::rememberForever('tags.list', function () {

@@ -16,7 +16,7 @@ class AddMultilingualColumnsOnTagsTable extends Migration
         Schema::table('tags', function (Blueprint $table) {
             $table->string('ko')->nullable();
             $table->string('en')->nullable();
-            $table->string('cn')->nullable();
+            $table->string('zh')->nullable();
         });
     }
 
@@ -30,7 +30,7 @@ class AddMultilingualColumnsOnTagsTable extends Migration
         Schema::table('tags', function (Blueprint $table) {
             $table->dropColumn('ko');
             $table->dropColumn('en');
-            $table->dropColumn('cn');
+            $table->dropColumn('zh');
         });
     }
 }

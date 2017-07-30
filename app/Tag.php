@@ -16,6 +16,7 @@ class Tag extends Model
         'slug',
         'ko',
         'en',
+        'zh',
     ];
 
     /**
