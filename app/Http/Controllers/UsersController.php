@@ -93,7 +93,7 @@ class UsersController extends Controller
     protected function createNativeAccount(Request $request) {
         $this->validate($request, [
             'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
+            'email' => 'required|email|max:255|unique:customers',
             'password' => 'required|confirmed|min:6',
         ]);
 
